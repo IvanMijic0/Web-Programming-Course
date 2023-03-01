@@ -2,7 +2,7 @@
  require "vendor/autoload.php";
 
  Flight::route("/index.php", function(){
-    echo "Hello world!";
+    echo "Pepi, Gabi i Gugi su slatki";
  });
 
  Flight::start();
