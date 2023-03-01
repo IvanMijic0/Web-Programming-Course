@@ -1,10 +1,9 @@
 <?php
  require "vendor/autoload.php";
 
- Flight::route("/", function(){
+ Flight::route("/index.php", function(){
     echo "Hello world!";
  });
 
  Flight::start();
 
- ?>
